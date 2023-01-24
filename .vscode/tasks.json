@@ -2,10 +2,10 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "gcc",
+            "label": "task g++",
             "type": "shell",
             "windows": {
-                "command": "gcc",
+                "command": "D:\\Program Files\\mingw64\\bin\\g++.exe",
                 "args": [
                     "-g",
                     "\"${file}\"",
